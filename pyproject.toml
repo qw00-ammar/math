@@ -1,0 +1,14 @@
+[project]
+name = "xwatcher"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.0",
+    "gunicorn>=21.2",
+    "requests>=2.31",
+    "urllib3>=2.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
